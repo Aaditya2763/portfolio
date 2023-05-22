@@ -1,0 +1,24 @@
+.card{
+    width: 95%;
+    height: 250px;
+    
+    color: white;
+    background-color:#33315B;
+    margin-top: 8px;
+    border-radius: 10px;
+    
+}
+.rank{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+.visitButton{
+    width:100px;
+    height: 30px;
+    margin-top: 10px;
+margin-left: 50px;
+    color: white;
+    background-color: #F87936;
+}

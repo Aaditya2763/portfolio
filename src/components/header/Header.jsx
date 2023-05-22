@@ -37,7 +37,7 @@ setOpenChat(!openChat);
 
   return (
     <>
-      <section className={classes.headerBox}>
+      <section className={classes.headerBox} id='home'>
         <navbar className={classes.navbar}>
           <div>
             <p>Portfolio</p>
@@ -45,7 +45,7 @@ setOpenChat(!openChat);
           <div  >
             <ul className={`${classes.navlinks} ${toggleMenu ? " " : classes.hidenavbar}`} onClick={blurHanlder} >
 
-              <li ><a href="/">Home</a> </li>
+              <li ><a href="#home">Home</a> </li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
               <li> <a href="https://drive.google.com/file/d/1CRAwYFirnl9UG8_B5LtH99fu9rxkyp3k/view?usp=share_link" target="_blank" rel="noreferrer"> Resume </a></li>

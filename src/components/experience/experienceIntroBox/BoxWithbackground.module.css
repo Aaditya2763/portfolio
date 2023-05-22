@@ -1,0 +1,75 @@
+.backgroundImgBox{
+    width: 100%;
+    height: auto;
+  border-radius: 10px;
+  border: none;
+  
+  
+}
+
+.exploreBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    color: white;
+  
+    /* border-bottom: 1px solid orange ; */
+  
+
+}
+.img{
+    width:100%;
+    height: auto;
+background-image: url("https://www.iventra.com/assets/images/bg/back-end-developer.gif");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.heading{
+font-size: 2rem;
+
+text-align: center;
+
+/* border: 2px solid red; */
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+}
+.headingSection{
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(4, 87, 221);
+    color: white;
+    font-size: 1rem;
+    /* border: none; */
+
+}
+
+@media screen  and (max-width:600px){
+    .exploreBox{
+        width: 100%;
+       flex-direction: column-reverse;
+    }
+    .img{
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    .heading{
+        width: 100%;
+        position: relative;
+    }
+    .button{
+        width: 150px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+}

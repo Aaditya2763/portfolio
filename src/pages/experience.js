@@ -1,8 +1,8 @@
 import React from 'react'
-
+import ExperiencePage from '../components/experience/experiencePage'
 const experience = () => {
   return (
-    <div>experience</div>
+  <ExperiencePage/>
   )
 }
 

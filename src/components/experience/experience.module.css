@@ -1,0 +1,40 @@
+.expPage{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+width: 100%;
+background-color: black;
+height: auto;
+
+}
+
+.profileSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20%;
+    height: auto;
+  
+    background-color: black;
+}
+.workSection{
+  
+    width:60%;
+    height: auto;
+  
+    background-color: black;
+}
+@media screen  and (max-width:1024px){
+    .expPage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileSection{
+        width: 100%;
+        align-items: center;
+    }
+    .workSection{
+        width: 100%;
+        flex-direction: column;
+    }
+}

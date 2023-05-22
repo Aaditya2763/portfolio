@@ -1,6 +1,6 @@
 .links{
-    width:500px;
-    height: 500;
+    width:200px;
+    height: 200;
     justify-content: center;
     color: white;
     
@@ -10,12 +10,13 @@
     display: flex;
     flex-direction: "row";
     align-self: center;
-    margin-left: -50px;
+    margin-top: -10px;
+    margin-left: -18px;
 }
 .links ul li {
     list-style: none;
-    width:100px;
-    height: 100px;
+    width:30px;
+    height: 30px;
     border: 2px solid white;
     color: white;
     text-align: center;
