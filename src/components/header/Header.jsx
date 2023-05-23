@@ -78,7 +78,7 @@ setOpenChat(!openChat);
             {/* {competativePlatformStatus ?<OpenCodingplatforms  paltformhandler={openPlatformBoxHandler}/>:<Codingplatforms   paltformhandler={openPlatformBoxHandler} />} */}
            
 
- {openChat?<OpenchatBox boxHandler={openBoxHandler} />:<Chats boxHandler={openBoxHandler}  />}
+ {/* {openChat?<OpenchatBox boxHandler={openBoxHandler} />:<Chats boxHandler={openBoxHandler}  />} */}
       
            
           </div>

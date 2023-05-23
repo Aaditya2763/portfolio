@@ -4,4 +4,37 @@
     margin-top: 10px;
     border-radius: 10px;
     border: 2px solid white;
+ /* color: orange; */
+}
+.cardHeading{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: orange;
+}
+.cardInfo {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+align-content: space-around;
+    color: white;
+}
+.info {
+    width: 90%;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+padding-left: 10px;
+margin-top: 10px;
+ 
+}
+.button{
+    width: 100px;
+    margin-top: 20px;
+    align-self: center;
+    background-color: blue;
 }
