@@ -21,7 +21,8 @@ const HackerblockCard = () => {
                     
                 </div>
             </div>
-            <button className={classes.visitButton}><a href='https://hack.codingblocks.com/app/users/269279' target="_blank" rel="noreferrer">  Visit profile </a></button>
+            <button className={classes.button}><a href='https://hack.codingblocks.com/app/users/269279' target="_blank" rel="noreferrer">  Visit profile </a></button>
+
         </section>
     )
 }

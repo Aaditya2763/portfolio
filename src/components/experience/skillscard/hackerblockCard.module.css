@@ -14,11 +14,12 @@
     justify-content: space-around;
     margin-top: -10px;
 }
-.visitButton{
+.button{
     width:100px;
     height: 30px;
     margin-top: 10px;
 margin-left: 50px;
+/* align-self: center; */
     color: white;
     background-color: #F87936;
 }

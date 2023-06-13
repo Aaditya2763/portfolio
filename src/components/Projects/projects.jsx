@@ -9,7 +9,7 @@ const projects = () => {
               <h1>Projects</h1>
               <div className={classes.projectItemRight}>
                 
-                <p><a  href="https://adityashoppingapp.herokuapp.com" target="_blank" rel="noreferrer">E-Commerce Website</a></p>
+                <p><a  href="https://e-commerce-live-production.up.railway.app/" target="_blank" rel="noreferrer">E-Commerce Website</a></p>
                  
                   <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
                       
@@ -22,7 +22,7 @@ const projects = () => {
               </div>
               <div className={classes.projectItemLeft}>
               
-                <p><a href="https://aadityachatapp.herokuapp.com" target="_blank" rel="noreferrer">Chatting app </a></p>
+                <p><a href="https://chatting-app-production.up.railway.app/" target="_blank" rel="noreferrer">Chatting app </a></p>
                  <img style={{ borderRadius: "10px" ,width:"100px", height:"100px"}}
                      
                      
@@ -33,7 +33,7 @@ const projects = () => {
               </div>
               <div className={classes.projectItemRight}>
            
-                <p><a  href="https://aditya-blog-website.herokuapp.com" target="_blank" rel="noreferrer">Blogging website </a></p>
+                <p><a  href="https://blog-website-online-production.up.railway.app/" target="_blank" rel="noreferrer">Blogging website </a></p>
            
                   <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
                      
@@ -81,7 +81,7 @@ const projects = () => {
               </div>
               <div className={classes.minorProjectItem}>
 
-                <p><a  href="https://agile-fortress-31191.herokuapp.com" target="_blank" rel="noreferrer">Food Website</a></p>
+                <p><a  href="https://udemy-food-app-production.up.railway.app/" target="_blank" rel="noreferrer">Food Website</a></p>
                  
         
                   <img style={{ borderRadius: "10px",width:"50px", height:"50px" }}
