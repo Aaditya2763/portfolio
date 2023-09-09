@@ -9,7 +9,7 @@ const projects = () => {
               <h1>Projects</h1>
               <div className={classes.projectItemRight}>
                 
-                <p><a  href="https://e-commerce-live-production.up.railway.app/" target="_blank" rel="noreferrer">E-Commerce Website</a></p>
+                <p><a  href="https://aditya-e-commerce.onrender.com" target="_blank" rel="noreferrer">E-Commerce Website</a></p>
                  
                   <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
                       
@@ -22,7 +22,7 @@ const projects = () => {
               </div>
               <div className={classes.projectItemLeft}>
               
-                <p><a href="https://chatting-app-production.up.railway.app/" target="_blank" rel="noreferrer">Chatting app </a></p>
+                <p><a href="https://aditya-chatting-app.onrender.com" target="_blank" rel="noreferrer">Chatting app </a></p>
                  <img style={{ borderRadius: "10px" ,width:"100px", height:"100px"}}
                      
                      
@@ -33,7 +33,7 @@ const projects = () => {
               </div>
               <div className={classes.projectItemRight}>
            
-                <p><a  href="https://blog-website-online-production.up.railway.app/" target="_blank" rel="noreferrer">Blogging website </a></p>
+                <p><a  href="https://aditya-blogwebsite.onrender.com" target="_blank" rel="noreferrer">Blogging website </a></p>
            
                   <img style={{ borderRadius: "10px",width:"100px", height:"100px" }}
                      
